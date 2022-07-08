@@ -1,7 +1,7 @@
 <!-- default badges list -->
 ![](https://img.shields.io/endpoint?url=https://codecentral.devexpress.com/api/v1/VersionRange/511874854/22.1.3%2B)
-![](https://img.shields.io/badge/Open_in_DevExpress_Support_Center-FF7200?style=flat-square&logo=DevExpress&logoColor=white)
-![](https://img.shields.io/badge/%C3%B0%C5%B8%E2%80%9C%E2%80%93_How_to_use_DevExpress_Examples-e9f6fc?style=flat-square)
+[![](https://img.shields.io/badge/Open_in_DevExpress_Support_Center-FF7200?style=flat-square&logo=DevExpress&logoColor=white)](https://supportcenter.devexpress.com/ticket/details/T1101292)
+[![](https://img.shields.io/badge/📖_How_to_use_DevExpress_Examples-e9f6fc?style=flat-square)](https://docs.devexpress.com/GeneralInformation/403183)
 <!-- default badges end -->
 
 # XAF Blazor - Implement a custom Action type
