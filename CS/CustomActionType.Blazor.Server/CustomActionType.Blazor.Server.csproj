@@ -16,8 +16,8 @@
     </Content>
   </ItemGroup>
   <ItemGroup>
-    <PackageReference Include="DevExpress.ExpressApp.Blazor" Version="22.1-*" />
-    <PackageReference Include="DevExpress.ExpressApp.CodeAnalysis" Version="22.1-*" />
+    <PackageReference Include="DevExpress.ExpressApp.Blazor" Version="22.2.2-beta" />
+    <PackageReference Include="DevExpress.ExpressApp.CodeAnalysis" Version="22.2.2-beta" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\CustomActionType.Module\CustomActionType.Module.csproj" />
