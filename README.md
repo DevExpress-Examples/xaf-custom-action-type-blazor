@@ -6,6 +6,8 @@
 
 # XAF Blazor - How to create a custom Action type
 This example demonstrates how to create a custom Action type with toggleable state. 
+![chrome_RuP8b15xLx](https://github.com/DevExpress-Examples/xaf-custom-action-type-blazor/assets/14300209/ea644d45-b306-48d5-b6c9-d4230ca5fa03)
+
 
 ## Implementation Details
 
