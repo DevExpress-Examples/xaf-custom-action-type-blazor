@@ -4,13 +4,23 @@
 [![](https://img.shields.io/badge/📖_How_to_use_DevExpress_Examples-e9f6fc?style=flat-square)](https://docs.devexpress.com/GeneralInformation/403183)
 <!-- default badges end -->
 
-# XAF Blazor - Implement a custom Action type
-This example demonstrates how to create a custom Action type with toggleable state. The Action implementation consists of the following parts:
+# XAF Blazor - How to create a custom Action type
+This example demonstrates how to create a custom Action type with toggleable state. 
 
-1. [CheckableSimpleAction.cs](./CS/CustomActionType.Blazor.Server/CheckableSimpleAction.cs) - The SimpleAction descendant that saves the Action's checked state.
-2. [CheckableSimpleActionBinding.cs](./CS/CustomActionType.Blazor.Server/CheckableSimpleActionBinding.cs) - The custom Action binding that binds an abstract Action to its UI representation.
-3. [CheckableSimpleActionController.cs](./CS/CustomActionType.Blazor.Server/Controllers/CheckableSimpleActionController.cs) - The Controller that performs the binding operation.
-4. [SampleController.cs](./CS/CustomActionType.Blazor.Server/Controllers/SampleController.cs) - The Controller that creates `CheckableSimpleAction`s in the UI.
+## Implementation Details
+
+
+The Action implementation consists of the following parts:
+The SimpleAction descendant that saves the Action's checked state.  [CheckableSimpleAction.cs](CS/CustomActionSolution/CustomActionSolution.Blazor.Server/CustomAction/CheckableSimpleAction.cs) 
+The custom Action binding that binds an abstract Action to its UI representation.[CheckableSimpleActionBinding.cs](CS/CustomActionSolution/CustomActionSolution.Blazor.Server/CustomAction/CheckableSimpleActionBinding.cs) 
+The Controller that performs the binding operation. [CheckableSimpleActionController.cs](CS/CustomActionSolution/CustomActionSolution.Blazor.Server/Controllers/CheckableSimpleActionController.cs) 
+The Controller that creates `CheckableSimpleAction`s in the UI. [SampleController.cs](CS/CustomActionSolution/CustomActionSolution.Blazor.Server/Controllers/SampleController.cs)
+
+## Files to Review
+1. [CheckableSimpleAction.cs](CS/CustomActionSolution/CustomActionSolution.Blazor.Server/CustomAction/CheckableSimpleAction.cs) 
+2. [CheckableSimpleActionBinding.cs](CS/CustomActionSolution/CustomActionSolution.Blazor.Server/CustomAction/CheckableSimpleActionBinding.cs) 
+3. [CheckableSimpleActionController.cs](CS/CustomActionSolution/CustomActionSolution.Blazor.Server/Controllers/CheckableSimpleActionController.cs) 
+4. [SampleController.cs](CS/CustomActionSolution/CustomActionSolution.Blazor.Server/Controllers/SampleController.cs)
 
 ## More Examples
 * [How to create a custom action type with a custom control (BarCheckItem), associated with it](https://github.com/DevExpress-Examples/XAF_how-to-create-a-custom-action-type-with-a-custom-control-barcheckitem-associated-with-it-e1977) (WinForms)
