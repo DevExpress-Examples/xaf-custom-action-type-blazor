@@ -11,9 +11,9 @@ This example demonstrates how to create a custom Action type with a toggle state
 
 ## Implementation Details
 
-The Action implementation consists of the following parts:
+The Action's implementation consists of the following parts:
 
-1. A `SimpleAction` descendant that stores the checked state of an Action ([CheckableSimpleAction.cs](CS/CustomActionSolution/CustomActionSolution.Blazor.Server/CustomAction/CheckableSimpleAction.cs)). 
+1. A `SimpleAction` descendant that stores the checked state of the Action ([CheckableSimpleAction.cs](CS/CustomActionSolution/CustomActionSolution.Blazor.Server/CustomAction/CheckableSimpleAction.cs)). 
 2. The custom Action binding that binds an abstract Action to its UI representation ([CheckableSimpleActionBinding.cs](CS/CustomActionSolution/CustomActionSolution.Blazor.Server/CustomAction/CheckableSimpleActionBinding.cs)).
 3. The Controller that performs the binding operation. ([CheckableSimpleActionController.cs](CS/CustomActionSolution/CustomActionSolution.Blazor.Server/Controllers/CheckableSimpleActionController.cs))
 4. The Controller that creates `CheckableSimpleAction` objects in the UI. ([SampleController.cs](CS/CustomActionSolution/CustomActionSolution.Blazor.Server/Controllers/SampleController.cs))
